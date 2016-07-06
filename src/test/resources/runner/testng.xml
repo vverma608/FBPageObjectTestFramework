@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="FaceBook Page Obeject Test Farmework">
+    
+   <test name="Login Test">
+    <classes>
+     
+      <class name="testcases.LoginTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+    
+    <test name="Finding Friends Test">
+    <classes>
+     
+      <class name="testcases.TestFriends"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+        
+</suite> <!-- Suite -->
