@@ -15,8 +15,9 @@ public class LoginTest extends TestUtils {
 		HomePage home = new HomePage();
 		LandingPage lp = home.doLogin("seltest645@gmail.com", "test1234@");
 
-		Assert.assertTrue(isElementPresent(".//*[@id='pagelet_welcome_box']/ul/li[1]/div/a"));
+		//Assert.assertTrue(isElementPresent(".//*[@id='pagelet_welcome_box']/ul/li[1]/div/a"));
 		
+		Assert.fail();
 	}
 
 	

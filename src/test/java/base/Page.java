@@ -11,7 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
+
 import org.testng.annotations.BeforeSuite;
+
 
 
 
@@ -83,11 +85,13 @@ public class Page {
 		
 	}
 		
+	
+	
 	@AfterSuite
 	public void tearDown(){
 		
 		driver.quit();
-		log.debug("Quiting the driver, The test run is over...!!!");
+		log.debug("Quitting the driver, The test suite execution is over...!!!");
 	}
 
 }
